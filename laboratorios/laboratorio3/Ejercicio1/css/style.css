@@ -9,6 +9,7 @@ html, body{
 
 body{
     background-image: url('../img/fondo.jpg');
+    background-size: 100%;
 }
 
 .container{
@@ -46,6 +47,16 @@ body{
 
 .btn.purple{
     background-color: rgb(70, 26, 146);
+    color: white;
+}
+
+.btn.blue{
+    background-color: rgb(42, 44, 199);
+    color: white;
+}
+
+.btn.pink{
+    background-color: rgb(230, 67, 135);
     color: white;
 }
 
@@ -91,6 +102,15 @@ img{
 }
 
 .div3{
-    background-color: yellow;
     flex: 1 0 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 40px 20px 40px;
+}
+
+.btn.black{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
 }
