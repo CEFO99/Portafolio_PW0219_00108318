@@ -1,0 +1,30 @@
+$bg-image: url('../img/fondo.jpg');
+$bg-size: 100%;
+
+$margin-std: 0;
+$padding-std: 0;
+
+$width: 100%;
+$height: 100%;
+
+html, body{
+    width: $width;
+    height: $height;
+    margin: $margin-std;
+    padding: $padding-std;
+
+}
+
+body{
+    background-image: $bg-image;
+    background-size: $bg-size;
+
+}
+
+
+.container{
+    width: $width;
+    height: $height;
+    margin: $margin-std;
+    padding: $padding-std;
+}
